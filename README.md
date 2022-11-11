@@ -32,7 +32,7 @@ Mas, antes de se aventurar nos exercícios, saiba que você encontrará imports 
   <summary><strong>‼️ Antes de começar a desenvolver</strong></summary><br />
 
 1. Clone o repositório
-  * `git clone git@github.com:tryber/sd-0x-exercise-magic-card.git`.
+  * `git clone git@github.com:tryber/sd-027-b-exercise-magic-card.git`
   * Entre na pasta do repositório que você acabou de clonar:
     * `cd sd-0x-exercise-magic-card`
 
@@ -226,7 +226,7 @@ Você deverá remover os comentários do código sempre que necessário a medida
 ## 1. Implemente os testes da função `getMagicCard`
 
 <details>
-<summary>Implemente um teste para cada verificação dentro do arquivo <code>tests/magic.test.js</code></summary><br />
+<summary>Implemente um teste para cada verificação dentro do arquivo <code>__tests__/magic.test.js</code></summary><br />
 
    1. Verifique se `getMagicCard` é uma função.
    2. Verifique se, ao chamar a função `getMagicCard`, a função *fetch* foi chamada.
@@ -255,7 +255,7 @@ Agora temos um arquivo com algumas das cartas preferidas do nosso jogador. Você
 ## 3. Implemente os testes da função `saveFavoriteMagicCard`
 
 <details>
-<summary>Implemente um teste para cada verificação dentro do arquivo <code>tests/saveFavoriteCard.test.js</code></summary><br />
+<summary>Implemente um teste para cada verificação dentro do arquivo <code>__tests__/favorite.test.js</code></summary><br />
 
   1. Implemente um teste que verifique que após a execução da função `saveFavoriteMagicCard`, `favoriteCards` passa a possuir `length === 5`.
      - Dentro do mesmo it, implemente um teste que verifique que na última posição do array `favoriteCards` existe um card com o a propriedade `name` e valor "Beacon of Immortality".
@@ -282,7 +282,7 @@ Agora temos um arquivo com algumas das cartas preferidas do nosso jogador. Você
 ## 4. Verifique os nomes das cartas favoritas
 
 <details>
-<summary>Implemente um teste para cada verificação dentro do arquivo <code>tests/saveFavoriteCard.test.js</code></summary><br />
+<summary>Implemente um teste para cada verificação dentro do arquivo <code>__tests__/favorite.test.js</code></summary><br />
 
 
   * Este exercício deve ser realizado após a implementação da função `afterEach` do requisito 3.
