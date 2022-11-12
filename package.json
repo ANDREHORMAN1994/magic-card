@@ -7,6 +7,7 @@
     "test": "tests"
   },
   "dependencies": {
+    "@types/jest": "^29.2.2",
     "eslint-config-trybe-fundamentals": "^1.1.1",
     "node-fetch": "^2.6.7"
   },
@@ -18,7 +19,7 @@
   },
   "scripts": {
     "test": "jest ./startest",
-    "test:dev": "jest ./src/__tests__",
+    "test:dev": "jest ./src/__tests__ --watchAll",
     "lint": "eslint ."
   },
   "keywords": [],
